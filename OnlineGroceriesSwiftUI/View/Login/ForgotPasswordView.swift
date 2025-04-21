@@ -1,9 +1,4 @@
-//
-//  ForgotPasswordView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 16/08/23.
-//
+
 
 import SwiftUI
 

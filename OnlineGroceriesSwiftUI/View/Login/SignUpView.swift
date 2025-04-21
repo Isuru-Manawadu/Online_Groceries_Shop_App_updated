@@ -1,9 +1,4 @@
-//
-//  SignUpView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 02/08/23.
-//
+
 
 import SwiftUI
 

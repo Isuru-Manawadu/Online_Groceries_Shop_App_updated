@@ -1,9 +1,4 @@
-//
-//  OnlineGroceriesSwiftUITests.swift
-//  OnlineGroceriesSwiftUITests
-//
-//  Created by CodeForAny on 30/07/23.
-//
+
 
 import XCTest
 @testable import OnlineGroceriesSwiftUI

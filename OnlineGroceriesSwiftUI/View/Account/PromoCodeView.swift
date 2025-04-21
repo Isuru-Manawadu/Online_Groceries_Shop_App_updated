@@ -1,9 +1,4 @@
-//
-//  PromoCodeView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 11/08/23.
-//
+
 
 import SwiftUI
 

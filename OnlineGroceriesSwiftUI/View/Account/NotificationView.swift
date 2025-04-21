@@ -1,9 +1,4 @@
-//
-//  NotificationView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 15/08/23.
-//
+
 
 import SwiftUI
 

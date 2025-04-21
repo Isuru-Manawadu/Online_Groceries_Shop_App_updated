@@ -1,9 +1,4 @@
-//
-//  SearchTextField.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 03/08/23.
-//
+
 
 import SwiftUI
 

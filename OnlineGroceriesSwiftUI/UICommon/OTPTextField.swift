@@ -1,9 +1,4 @@
-//
-//  OTPTextField.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 18/09/23.
-//
+
 
 import SwiftUI
 

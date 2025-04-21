@@ -1,9 +1,4 @@
-//
-//  AddDeliveryAddressView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 10/08/23.
-//
+
 
 import SwiftUI
 

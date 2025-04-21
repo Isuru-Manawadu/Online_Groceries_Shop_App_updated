@@ -1,9 +1,4 @@
-//
-//  TextArea.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 28/06/24.
-//
+
 
 import SwiftUI
 

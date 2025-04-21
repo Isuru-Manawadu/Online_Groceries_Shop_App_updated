@@ -1,9 +1,4 @@
-//
-//  NutritionModel.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 05/08/23.
-//
+
 
 import SwiftUI
 

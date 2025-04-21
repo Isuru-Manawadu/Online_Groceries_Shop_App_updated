@@ -1,9 +1,4 @@
-//
-//  ExploreItemsView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 07/08/23.
-//
+
 
 import SwiftUI
 

@@ -1,9 +1,4 @@
-//
-//  LoginView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 01/08/23.
-//
+
 
 import SwiftUI
 

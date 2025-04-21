@@ -1,9 +1,4 @@
-//
-//  MyOrderModel.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 14/08/23.
-//
+
 
 import SwiftUI
 

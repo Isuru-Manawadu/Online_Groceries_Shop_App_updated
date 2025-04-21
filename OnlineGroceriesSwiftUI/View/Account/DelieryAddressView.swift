@@ -1,9 +1,3 @@
-//
-//  DelieryAddressView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 09/08/23.
-//
 
 import SwiftUI
 
