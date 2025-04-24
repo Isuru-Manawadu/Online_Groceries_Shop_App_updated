@@ -66,3 +66,4 @@ struct FavouriteView_Previews: PreviewProvider {
         FavouriteView()
     }
 }
+//favourite tab re arrange
