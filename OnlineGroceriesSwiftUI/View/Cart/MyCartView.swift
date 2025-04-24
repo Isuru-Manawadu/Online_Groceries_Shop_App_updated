@@ -117,3 +117,4 @@ struct MyCartView_Previews: PreviewProvider {
         
     }
 }
+//card with notifi

@@ -294,3 +294,4 @@ struct CheckoutView_Previews: PreviewProvider {
         
     }
 }
+//checkout with promos
