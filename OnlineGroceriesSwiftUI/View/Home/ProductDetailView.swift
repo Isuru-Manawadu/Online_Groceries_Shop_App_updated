@@ -306,3 +306,4 @@ struct ProductDetailView_Previews: PreviewProvider {
         ])))
     }
 }
+//new with notifies

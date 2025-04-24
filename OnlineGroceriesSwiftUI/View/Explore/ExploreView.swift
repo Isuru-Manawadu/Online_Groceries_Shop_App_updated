@@ -65,3 +65,4 @@ struct ExploreView_Previews: PreviewProvider {
         
     }
 }
+//explore view 

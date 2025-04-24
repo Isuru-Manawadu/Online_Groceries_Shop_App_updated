@@ -141,3 +141,4 @@ struct HomeView_Previews: PreviewProvider {
         }
     }
 }
+//home main view with new photos
