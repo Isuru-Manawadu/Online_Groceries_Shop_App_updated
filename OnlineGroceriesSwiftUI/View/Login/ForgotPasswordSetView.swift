@@ -105,3 +105,4 @@ struct ForgotPasswordSetView_Previews: PreviewProvider {
         ForgotPasswordSetView()
     }
 }
+//set password view icons updated

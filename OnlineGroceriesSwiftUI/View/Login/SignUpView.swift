@@ -144,3 +144,4 @@ struct SignUpView_Previews: PreviewProvider {
         SignUpView()
     }
 }
+//signup with new ui

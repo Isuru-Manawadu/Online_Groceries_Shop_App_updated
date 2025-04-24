@@ -132,3 +132,4 @@ struct LoginView_Previews: PreviewProvider {
         
     }
 }
+//login view with new ui

@@ -70,3 +70,4 @@ struct WelcomeView_Previews: PreviewProvider {
         
     }
 }
+//welcome view with new ui
