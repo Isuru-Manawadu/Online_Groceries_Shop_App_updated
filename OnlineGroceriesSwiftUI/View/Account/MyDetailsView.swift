@@ -130,3 +130,4 @@ struct MyDetailsView_Previews: PreviewProvider {
         MyDetailsView()
     }
 }
+//details for mine
