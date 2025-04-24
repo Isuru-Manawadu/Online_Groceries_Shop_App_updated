@@ -151,3 +151,4 @@ class MyDetailsViewModel: ObservableObject
     
     
 }
+//nmnk

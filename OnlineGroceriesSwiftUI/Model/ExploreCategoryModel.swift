@@ -22,3 +22,4 @@ struct ExploreCategoryModel: Identifiable, Equatable {
         return lhs.id == rhs.id
     }
 }
+//aadd

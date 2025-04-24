@@ -21,3 +21,4 @@ struct NutritionModel: Identifiable, Equatable {
         return lhs.id == rhs.id
     }
 }
+//add

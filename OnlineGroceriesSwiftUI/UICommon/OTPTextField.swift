@@ -42,3 +42,4 @@ struct OTPTextField_Previews: PreviewProvider {
         OTPTextField(txtOTP: $txtCode)
     }
 }
+//for otps ui

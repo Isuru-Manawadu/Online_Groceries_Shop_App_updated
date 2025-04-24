@@ -59,3 +59,4 @@ struct ProductModel:  Identifiable, Equatable {
         return lhs.id == rhs.id
     }
 }
+//add
