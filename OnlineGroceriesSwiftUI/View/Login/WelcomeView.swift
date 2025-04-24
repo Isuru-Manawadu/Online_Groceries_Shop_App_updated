@@ -5,7 +5,7 @@ import SwiftUI
 struct WelcomeView: View {
     var body: some View {
         ZStack{
-            Image("welcom_bg")
+            Image("w")
                 .resizable()
                 .scaledToFill()
                 .frame(width: .screenWidth, height: .screenHeight)
@@ -21,12 +21,12 @@ struct WelcomeView: View {
                 
                 Text( "Welcome\nto our store")
                     .font(.customfont(.semibold, fontSize: 48))
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                     .multilineTextAlignment(.center)
                 
                 Text( "Ger your groceries in as fast as one hour")
                     .font(.customfont(.medium, fontSize: 16))
-                    .foregroundColor(.white.opacity(0.7))
+                    .foregroundColor(.black.opacity(0.7))
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 30)
                 
