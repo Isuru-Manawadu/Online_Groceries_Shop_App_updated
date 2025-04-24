@@ -11,13 +11,13 @@ struct SignInView: View {
     var body: some View {
         ZStack{
             
-            Image("bottom_bg")
+            Image("")
             .resizable()
             .scaledToFill()
             .frame(width: .screenWidth, height: .screenHeight)
             
             VStack{
-                Image("sign_in_top")
+                Image("")
                 .resizable()
                 .scaledToFill()
                 .frame(width: .screenWidth, height: .screenWidth)
