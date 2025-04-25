@@ -19,7 +19,7 @@ struct ForgotPasswordSetView: View {
                 
                 
                 
-                Image("password")
+                Image("ap_pw")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 40)

@@ -20,7 +20,7 @@ struct SignUpView: View {
                     
                     
                     
-                    Image("u2")
+                    Image("add1")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 40)

@@ -9,7 +9,7 @@ struct HomeView: View {
         ZStack{
             ScrollView{
                 VStack{
-                    Image("shop")
+                    Image("")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 25)
@@ -20,7 +20,7 @@ struct HomeView: View {
                             .scaledToFit()
                             .frame(width: 16, height: 16 )
                         
-                        Text("Galle Road, Galle")
+                        Text("No. 171/1, Galle Road, Boossa")
                             .font(.customfont(.semibold, fontSize: 18))
                             .foregroundColor(.darkGray)
                     }

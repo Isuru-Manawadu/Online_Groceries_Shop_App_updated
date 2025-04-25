@@ -17,7 +17,7 @@ struct SignInView: View {
             .frame(width: .screenWidth, height: .screenHeight)
             
             VStack{
-                Image("")
+                Image("q")
                 .resizable()
                 .scaledToFill()
                 .frame(width: .screenWidth, height: .screenWidth)
@@ -30,7 +30,7 @@ struct SignInView: View {
                 VStack(alignment: .leading){
                     Text( "Get your groceries\nwith nectar")
                         .font(.customfont(.semibold, fontSize: 26))
-                        .foregroundColor(.primaryText)
+                        .foregroundColor(.black)
                         .multilineTextAlignment(.leading)
                         .padding(.bottom , 25)
                     
