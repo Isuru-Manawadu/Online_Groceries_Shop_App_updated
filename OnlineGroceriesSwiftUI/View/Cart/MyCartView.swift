@@ -3,6 +3,8 @@
 import SwiftUI
 
 struct MyCartView: View {
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    
     @StateObject var cartVM = CartViewModel.shared
     var body: some View {
         ZStack{
@@ -32,13 +34,22 @@ struct MyCartView: View {
             VStack {
                 
                 HStack{
-                    
+                    Button(action: {
+                        mode.wrappedValue.dismiss()
+                    }, label: {
+                        Image("back")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                    })
                     Spacer()
+                    
                     
                     Text("My Cart")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()
+                    
                     
                 }
                 .padding(.top, .topInsets)
