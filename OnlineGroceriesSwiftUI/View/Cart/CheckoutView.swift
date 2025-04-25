@@ -3,6 +3,7 @@
 import SwiftUI
 
 struct CheckoutView: View {
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     
     @Binding var isShow: Bool
     @StateObject var cartVM = CartViewModel.shared
@@ -15,7 +16,14 @@ struct CheckoutView: View {
             Spacer()
             VStack{
                 HStack{
-                    
+                    Button(action: {
+                        mode.wrappedValue.dismiss()
+                    }, label: {
+                        Image("back")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                    })
                     Text("Checkout")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
