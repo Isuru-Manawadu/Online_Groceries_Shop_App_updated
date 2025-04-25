@@ -4,7 +4,7 @@ import SwiftUI
 import SDWebImageSwiftUI
 
 struct FavouriteView: View {
-    
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     @StateObject var favVM = FavouriteViewModel.shared
     
     var body: some View {
@@ -29,6 +29,14 @@ struct FavouriteView: View {
             VStack {
                     
                 HStack{
+                    Button(action: {
+                        mode.wrappedValue.dismiss()
+                    }, label: {
+                        Image("back")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                    })
                    
                     Spacer()
                     
