@@ -8,7 +8,7 @@ struct AccountView: View {
             VStack{
                 
                 HStack(spacing: 15) {
-                    Image("u1")
+                    Image("u2")
                         .resizable()
                         .frame(width: 60, height: 60)
                         .cornerRadius(30)
@@ -16,7 +16,7 @@ struct AccountView: View {
                     VStack{
                         
                         HStack{
-                            Text("Code For Any")
+                            Text("NECTAR")
                                 .font(.customfont(.bold, fontSize: 20))
                                 .foregroundColor(.primaryText)
                             
@@ -26,7 +26,7 @@ struct AccountView: View {
                             Spacer()
                         }
                         
-                        Text("codeforany@gmail.com")
+                        Text("isuru@gmail.com")
                             .font(.customfont(.regular, fontSize: 16))
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading )
                             .accentColor(.secondaryText)
