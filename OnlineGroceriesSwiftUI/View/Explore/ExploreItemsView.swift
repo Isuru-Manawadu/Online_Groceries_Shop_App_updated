@@ -17,6 +17,14 @@ struct ExploreItemsView: View {
             VStack {
                 
                 HStack{
+                    Button(action: {
+                        mode.wrappedValue.dismiss()
+                    }, label: {
+                        Image("back")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                    })
                     
                     EmptyView()
                         .frame(width: 40, height: 40)
