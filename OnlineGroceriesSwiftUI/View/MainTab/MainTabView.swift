@@ -9,6 +9,7 @@ struct MainTabView: View {
     var body: some View {
         ZStack{
             
+            
             if(homeVM.selectTab == 0) {
                 HomeView()
             }else if(homeVM.selectTab == 1) {
@@ -24,8 +25,9 @@ struct MainTabView: View {
             VStack{
                 
                 Spacer()
-                
+             
                 HStack{
+               
                     
                     TabButton(title: "Shop", icon: "store_tab", isSelect: homeVM.selectTab == 0) {
                         

@@ -3,12 +3,14 @@
 import SwiftUI
 
 struct SignInView: View {
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     
     @State var txtMobile: String = ""
 
     
     
     var body: some View {
+        
         ZStack{
             
             Image("")
@@ -23,9 +25,11 @@ struct SignInView: View {
                 .frame(width: .screenWidth, height: .screenWidth)
                 
                 Spacer()
+                
             }
-            
+           
             ScrollView{
+                
                     
                 VStack(alignment: .leading){
                     Text( "Get your groceries\nwith nectar")
@@ -119,6 +123,7 @@ struct SignInView: View {
                 .padding(.top, .topInsets +  .screenWidth * 0.6  )
                 
             }
+           
             
                 
         }
@@ -128,6 +133,7 @@ struct SignInView: View {
         .navigationBarHidden(true)
         .ignoresSafeArea()
     }
+    
 }
 
 struct SignInView_Previews: PreviewProvider {
