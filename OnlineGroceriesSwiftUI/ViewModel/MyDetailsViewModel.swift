@@ -91,7 +91,7 @@ class MyDetailsViewModel: ObservableObject
                 if response.value(forKey: KKey.status) as? String ?? "" == "1" {
                     
                     
-                    MainViewModel.shared.setUserData(uDict: response.value(forKey: KKey.payload) as? NSDictionary ?? [:])
+//                    MainViewModel.shared.setUserData(uDict: response.value(forKey: KKey.payload) as? NSDictionary ?? [:])
                     
                     self.errorMessage = response.value(forKey: KKey.message) as? String ?? "Success"
                     self.showError = true

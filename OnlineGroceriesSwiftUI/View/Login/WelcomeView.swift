@@ -5,7 +5,7 @@ import SwiftUI
 struct WelcomeView: View {
     var body: some View {
         ZStack{
-            Image("w")
+            Image("")
                 .resizable()
                 .scaledToFill()
                 .frame(width: .screenWidth, height: .screenHeight)
