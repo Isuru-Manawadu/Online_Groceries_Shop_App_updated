@@ -4,6 +4,8 @@ import SwiftUI
 import SDWebImageSwiftUI
 
 struct ProductCell: View {
+    @Environment(\.presentationMode) var mode : Binding<PresentationMode>
+    
     @State var pObj: ProductModel = ProductModel(dict: [:])
     @State var width:Double = 180.0
     var didAddCart: ( ()->() )?
@@ -37,12 +39,14 @@ struct ProductCell: View {
                 Spacer()
                 
                 HStack{
+                    
                     Text("$\(pObj.offerPrice ?? pObj.price, specifier: "%.2f" )")
                         .font(.customfont(.semibold, fontSize: 18))
                         .foregroundColor(.primaryText)
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     
                     Spacer()
+                    
                     
                     Button {
                         
