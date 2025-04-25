@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -207,6 +207,10 @@
 		CBFE45E92AB8192600751656 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DB8C8B862DBB19440042471E /* Service */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Service; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		CBAFEF022A76C8B5009DF242 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -312,6 +316,7 @@
 		CBAFEF072A76C8B5009DF242 /* OnlineGroceriesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DB8C8B862DBB19440042471E /* Service */,
 				CBD690732A790C49002EE6D3 /* Common */,
 				CBAFEF3F2A76C9E7009DF242 /* UICommon */,
 				CBAFEF3E2A76C9C9009DF242 /* ViewModel */,
@@ -489,6 +494,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB8C8B862DBB19440042471E /* Service */,
 			);
 			name = OnlineGroceriesSwiftUI;
 			packageProductDependencies = (

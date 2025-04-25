@@ -20,7 +20,7 @@ struct SignUpView: View {
                     
                     
                     
-                    Image("color_logo")
+                    Image("u2")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 40)

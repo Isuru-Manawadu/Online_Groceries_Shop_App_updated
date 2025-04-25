@@ -31,6 +31,11 @@ class MainViewModel: ObservableObject {
         txtPassword = "123456"
         #endif
         
+//        func login() {
+//            if txtEmail == "isuru@gmail.com" && txtPassword == "1234" {
+//                isUserLogin = true
+//            }
+        
     }
     
     func logout(){

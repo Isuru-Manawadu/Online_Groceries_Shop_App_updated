@@ -20,7 +20,7 @@ struct LoginView: View {
                 
                 
                 
-                Image("color_logo")
+                Image("u1")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 40)
