@@ -3,6 +3,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     @StateObject var homeVM = HomeViewModel.shared
     
     var body: some View {
@@ -15,12 +16,20 @@ struct HomeView: View {
                         .frame(width: 25)
                     
                     HStack{
+                        Button(action: {
+                            mode.wrappedValue.dismiss()
+                        }, label: {
+                            Image("back")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 20, height: 20)
+                        })
                         Image("location")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 16, height: 16 )
                         
-                        Text("No. 171/1, Galle Road, Boossa")
+                        Text("No. 171/1, Galle Road,Gintota, Boossa")
                             .font(.customfont(.semibold, fontSize: 18))
                             .foregroundColor(.darkGray)
                     }
