@@ -16,7 +16,7 @@ struct MyDetailsView: View {
                 VStack(spacing: 15){
                     
                     
-                    LineTextField(title: "Name", placholder: "Enter you name" , txt: $myVM.txtName)
+                    LineTextField(title: "Name", placholder: "Enter your name" , txt: $myVM.txtName)
                     
                     
                     VStack {
@@ -44,7 +44,7 @@ struct MyDetailsView: View {
                                 
                             }
                             
-                            TextField("Enter you mobile number", text:  $myVM.txtMobile)
+                            TextField("Enter your mobile number", text:  $myVM.txtMobile)
                                 .keyboardType(.numberPad)
                                 .frame(minWidth: 0, maxWidth: .infinity)
                             
@@ -54,7 +54,7 @@ struct MyDetailsView: View {
                         
                     }
                     
-                    LineTextField(title: "Username", placholder: "Enter you username" , txt: $myVM.txtUsername)
+                    LineTextField(title: "Username", placholder: "Enter your username" , txt: $myVM.txtUsername)
                     
                    
                    

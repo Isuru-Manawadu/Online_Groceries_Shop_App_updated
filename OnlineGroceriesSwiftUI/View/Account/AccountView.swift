@@ -3,11 +3,22 @@
 import SwiftUI
 
 struct AccountView: View {
+    @Environment(\.presentationMode) var mode : Binding<PresentationMode>
+    
     var body: some View {
         ZStack{
             VStack{
                 
                 HStack(spacing: 15) {
+                    Button {
+                        mode.wrappedValue.dismiss()
+                    } label: {
+                        Image("back")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                    }
+                    
                     Image("u2")
                         .resizable()
                         .frame(width: 60, height: 60)
@@ -16,6 +27,7 @@ struct AccountView: View {
                     VStack{
                         
                         HStack{
+                            
                             Text("NECTAR")
                                 .font(.customfont(.bold, fontSize: 20))
                                 .foregroundColor(.primaryText)
@@ -25,6 +37,7 @@ struct AccountView: View {
                             
                             Spacer()
                         }
+                        
                         
                         Text("isuru@gmail.com")
                             .font(.customfont(.regular, fontSize: 16))

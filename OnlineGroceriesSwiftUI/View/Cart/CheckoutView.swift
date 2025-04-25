@@ -31,6 +31,7 @@ struct CheckoutView: View {
                     }
                     
                     
+                    
                 }
                 .padding(.top, 30)
                 
